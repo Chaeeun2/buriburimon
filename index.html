@@ -10,27 +10,114 @@
     <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
 </head>
 
-<body style="background: black;">
-    <div id="footer2">
-        <span style="font-size:40px; font-weight:700;">이 사람과 <span
-                style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
-        <form class="gform" method="POST" data-email="example@email.net"
-            action="https://script.google.com/macros/s/AKfycbxk6gnmXoUGgicWsZmnDHK6ybkt-tFHdkBnGDiXLfD3qPX8-GluVjQgCH52FDQFvkBZcw/exec">
-            <div>
-                <input type="radio" id="yes" name="yes" value="할 수 있어요">
-                <lavel for="yes" id="yeslavel">할 수 있어요</lavel>
-                <input type="radio" id="no" name="yes" value="할 수 없어요">
-                <lavel for="no" id="nolavel">할 수 없어요</lavel>
-            </div>
-            <div style="margin-top:70px;">
-                <lavel for="text" id="textlavel">당신은 상대의 <span style="color: black; -webkit-text-stroke: 1px white;">어떤
-                        것</span>과 연애하나요?</lavel>
-                <br><input type="text" id="text" name="message" placeholder="답변을 입력하세요.">
-            </div>
-            <div>
-                <input type="submit" id="submit" value="답변하기">
-            </div>
-        </form>
+<body id="body">
+    <div id="page1">
+        <div class="title">
+            당신이 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 때
+            가장 중요하게 생각하는 것은?
+        </div>
+        <div class="line1st">
+            <img class="fiveimg" src="resource/911.png" onmouseover="this.src='resource/912.png'"
+                onmouseout="this.src='resource/911.png'" onclick="click001()">
+            <img class="fiveimg" src="resource/921.png" onmouseover="this.src='resource/922.png'"
+                onmouseout="this.src='resource/921.png'">
+        </div>
+        <div class="line2nd">
+            <img class="fiveimg" src="resource/931.png" onmouseover="this.src='resource/932.png'"
+                onmouseout="this.src='resource/931.png'">
+            <img class="fiveimg" src="resource/941.png" onmouseover="this.src='resource/942.png'"
+                onmouseout="this.src='resource/941.png'">
+            <img class="fiveimg" src="resource/951.png" onmouseover="this.src='resource/952.png'"
+                onmouseout="this.src='resource/951.png'">
+        </div>
     </div>
+
+
+
+
+    <div id="page2">
+        <div id="left">
+            <div id="title" class="title">
+                어떤 사람과 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>하고
+                싶나요?
+            </div>
+
+            <div class="flex1">
+                <div id="first">
+                    <div id="changediv1" class="choice" onclick="click101()">
+                        <img id="change1" src="resource/2-1.png">
+                    </div>
+                    <div id="changediv2" class="choice" onclick="click102()">
+                        <img id="change2" src="resource/2-2.png">
+                    </div>
+                </div>
+
+                <div id="second">
+                    <div id="changediv4" class="choice" onclick="click202()">
+                        <img id="change4" src="resource/3-2.png">
+                    </div>
+                    <div id="changediv3" class="choice" onclick="click201()">
+                        <img id="change3" src="resource/3-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex1">
+                <div id="third">
+                    <div id="changediv5" class="choice" onclick="click301()">
+                        <img id="change5" src="resource/4-1.png">
+                    </div>
+                    <div id="changediv6" class="choice" onclick="click302()">
+                        <img id="change6" src="resource/4-2.png">
+                    </div>
+                </div>
+
+                <div id="fourth">
+                    <div id="changediv8" class="choice" onclick="click402()">
+                        <img id="change8" src="resource/5-2.png">
+                    </div>
+                    <div id="changediv7" class="choice" onclick="click401()">
+                        <img id="change7" src="resource/5-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="flex2">
+                <div id="fifth">
+                    <div id="changediv9" class="choice" onmouseover="hover1()" onclick="click501()">
+                        <img id="change9" src="resource/1-1.png">
+                    </div>
+                    <div id="changediv10" class="choice" onmouseover="hover2()" onclick="click502()">
+                        <img id="change10" src="resource/1-2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <span style="font-size:40px; font-weight:700;">이 사람과 <span
+                    style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
+            <form class="gform" method="POST" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbxk6gnmXoUGgicWsZmnDHK6ybkt-tFHdkBnGDiXLfD3qPX8-GluVjQgCH52FDQFvkBZcw/exec">
+                <div>
+                    <input type="radio" id="yes" name="yes" value="할 수 있어요">
+                    <lavel for="yes" id="yeslavel">할 수 있어요</lavel>
+                    <input type="radio" id="no" name="yes" value="할 수 없어요">
+                    <lavel for="no" id="nolavel">할 수 없어요</lavel>
+                </div>
+                <div style="margin-top:70px;">
+                    <lavel for="text" id="textlavel">당신은 상대의 <span
+                            style="color: black; -webkit-text-stroke: 1px white;">어떤
+                            것</span>과 연애하나요?</lavel>
+                    <br><input type="text" id="text" name="message" placeholder="답변을 입력하세요.">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="답변하기">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
     <script src="index.js"></script>
 </body>

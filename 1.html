@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="ko" style="width: 100%;">
+
+<head>
+    <title>우리는 무엇으로 관계맺나</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+</head>
+
+<body style="background: black;">
+    <div id="footer2">
+        <span style="font-size:40px; font-weight:700;">이 사람과 <span
+                style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
+        <form class="gform" method="POST" data-email="example@email.net"
+            action="https://script.google.com/macros/s/AKfycbxk6gnmXoUGgicWsZmnDHK6ybkt-tFHdkBnGDiXLfD3qPX8-GluVjQgCH52FDQFvkBZcw/exec">
+            <div>
+                <input type="radio" id="yes" name="yes" value="할 수 있어요">
+                <lavel for="yes" id="yeslavel">할 수 있어요</lavel>
+                <input type="radio" id="no" name="yes" value="할 수 없어요">
+                <lavel for="no" id="nolavel">할 수 없어요</lavel>
+            </div>
+            <div style="margin-top:70px;">
+                <lavel for="text" id="textlavel">당신은 상대의 <span style="color: black; -webkit-text-stroke: 1px white;">어떤
+                        것</span>과 연애하나요?</lavel>
+                <br><input type="text" id="text" name="message" placeholder="답변을 입력하세요.">
+            </div>
+            <div>
+                <input type="submit" id="submit" value="답변하기">
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
