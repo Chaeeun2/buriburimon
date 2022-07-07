@@ -1,0 +1,198 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding-bottom: 60px;
+    margin: 0vw;
+}
+
+.flex1 {
+    display: flex;
+}
+
+#first {
+    width: 50%;
+    margin-top: 5vh;
+}
+
+#second,
+#third,
+#fourth,
+#flex2 {
+    display: none;
+    width: 50%;
+}
+
+#second {
+    padding-top: 20px;
+    margin-top: 5vh;
+}
+
+#fourth {
+    padding-top: 20px;
+}
+
+#fifth {
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.choice {
+    margin-top: 0px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.choice:hover {
+    opacity: 1;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 8vh;
+    text-align: center;
+}
+
+#change1,
+#change2,
+#change3,
+#change4,
+#change5,
+#change6,
+#change7,
+#change8,
+#change9,
+#change10 {
+    width: 100%;
+}
+
+#changediv1,
+#changediv2,
+#changediv3,
+#changediv4,
+#changediv5,
+#changediv6,
+#changediv7,
+#changediv8,
+#changediv9,
+#changediv10 {
+    display: inline;
+    text-align: center;
+    padding-right: 10px;
+}
+
+#page2 {
+    display: none;
+}
+
+#page1 {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.line1st {
+    margin-top: 16vh;
+}
+
+.fiveimg {
+    width: 18vw;
+    padding: 35px 25px;
+}
+
+#footer {
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    display: none;
+    text-align: left;
+    width: 60%;
+    margin: auto 50px;
+}
+
+#footer2 {
+    color: white;
+    text-align: left;
+}
+
+#yes {
+    margin-top: 30px;
+}
+
+#yeslavel {
+    margin-right: 30px;
+}
+
+#yeslavel,
+#nolavel {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#textlavel {
+    margin-top: 50px;
+}
+
+#textlavel {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#left {
+    width: 100%;
+}
+
+
+
+input[type='text'] {
+    border: 2px solid white;
+    background: black;
+    color: white;
+    font-size: 23px;
+    padding: 15px;
+    width: 20em;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+input[type='submit'] {
+    border: 2px solid white;
+    background: white;
+    color: black;
+    font-size: 23px;
+    padding: 10px 20px;
+    margin-top: 70px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+input[type='submit']:hover {
+    opacity: 0.6;
+}
+
+input[type='radio'],
+input[type='radio']:checked {
+    appearance: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+
+input[type='radio'] {
+    background-color: black;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked {
+    background-color: white;
+}
