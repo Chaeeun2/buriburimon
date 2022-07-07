@@ -8,35 +8,68 @@
     margin: 0;
     padding-bottom: 60px;
     margin: 0vw;
+    position: relative;
 }
 
 .flex1 {
     display: flex;
 }
 
-#first {
+#page2_first,
+#page3_first,
+#page4_first,
+#page5_first,
+#page6_first {
     width: 50%;
-    margin-top: 5vh;
+    margin-top: 6vh;
 }
 
-#second,
-#third,
-#fourth,
-#flex2 {
+#page2_second,
+#page2_third,
+#page2_fourth,
+#page2_flex2,
+#page3_second,
+#page3_third,
+#page3_fourth,
+#page3_flex2,
+#page4_second,
+#page4_third,
+#page4_fourth,
+#page4_flex2,
+#page5_second,
+#page5_third,
+#page5_fourth,
+#page5_flex2,
+#page6_second,
+#page6_third,
+#page6_fourth,
+#page6_flex2 {
     display: none;
     width: 50%;
 }
 
-#second {
+#page2_second,
+#page3_second,
+#page4_second,
+#page5_second,
+#page6_second {
     padding-top: 20px;
     margin-top: 5vh;
 }
 
-#fourth {
+#page2_fourth,
+#page3_fourth,
+#page4_fourth,
+#page5_fourth,
+#page6_fourth {
     padding-top: 20px;
 }
 
-#fifth {
+#page2_fifth,
+#page3_fifth,
+#page4_fifth,
+#page5_fifth,
+#page6_fifth {
     padding-top: 10px;
     display: flex;
     width: 100%;
@@ -60,35 +93,119 @@
     text-align: center;
 }
 
-#change1,
-#change2,
-#change3,
-#change4,
-#change5,
-#change6,
-#change7,
-#change8,
-#change9,
-#change10 {
+#page2_1,
+#page2_2,
+#page2_3,
+#page2_4,
+#page2_5,
+#page2_6,
+#page2_7,
+#page2_8,
+#page2_9,
+#page2_10,
+#page3_1,
+#page3_2,
+#page3_3,
+#page3_4,
+#page3_5,
+#page3_6,
+#page3_7,
+#page3_8,
+#page3_9,
+#page3_10,
+#page4_1,
+#page4_2,
+#page4_3,
+#page4_4,
+#page4_5,
+#page4_6,
+#page4_7,
+#page4_8,
+#page4_9,
+#page4_10,
+#page5_1,
+#page5_2,
+#page5_3,
+#page5_4,
+#page5_5,
+#page5_6,
+#page5_7,
+#page5_8,
+#page5_9,
+#page5_10,
+#page6_1,
+#page6_2,
+#page6_3,
+#page6_4,
+#page6_5,
+#page6_6,
+#page6_7,
+#page6_8,
+#page6_9,
+#page6_10 {
     width: 100%;
 }
 
-#changediv1,
-#changediv2,
-#changediv3,
-#changediv4,
-#changediv5,
-#changediv6,
-#changediv7,
-#changediv8,
-#changediv9,
-#changediv10 {
+#page2_div1,
+#page2_div2,
+#page2_div3,
+#page2_div4,
+#page2_div5,
+#page2_div6,
+#page2_div7,
+#page2_div8,
+#page2_div9,
+#page2_div10,
+#page3_div1,
+#page3_div2,
+#page3_div3,
+#page3_div4,
+#page3_div5,
+#page3_div6,
+#page3_div7,
+#page3_div8,
+#page3_div9,
+#page3_div10,
+#page4_div1,
+#page4_div2,
+#page4_div3,
+#page4_div4,
+#page4_div5,
+#page4_div6,
+#page4_div7,
+#page4_div8,
+#page4_div9,
+#page4_div10,
+#page5_div1,
+#page5_div2,
+#page5_div3,
+#page5_div4,
+#page5_div5,
+#page5_div6,
+#page5_div7,
+#page5_div8,
+#page5_div9,
+#page5_div10,
+#page6_div1,
+#page6_div2,
+#page6_div3,
+#page6_div4,
+#page6_div5,
+#page6_div6,
+#page6_div7,
+#page6_div8,
+#page6_div9,
+#page6_div10 {
     display: inline;
     text-align: center;
     padding-right: 10px;
 }
 
-#page2 {
+#page2,
+#page3,
+#page4,
+#page5,
+#page6 {
     display: none;
 }
 
@@ -97,8 +214,18 @@
     text-align: center;
 }
 
+
+#answer {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2.4;
+    text-align: center;
+    display: inline;
+    padding-bottom: 6em;
+}
+
 .line1st {
-    margin-top: 16vh;
+    margin-top: 14vh;
 }
 
 .fiveimg {
@@ -106,7 +233,11 @@
     padding: 35px 25px;
 }
 
-#footer {
+#page2_footer,
+#page3_footer,
+#page4_footer,
+#page5_footer,
+#page6_footer {
     padding-top: 40px;
     font-size: 22px;
     font-weight: 700;
@@ -115,11 +246,6 @@
     text-align: left;
     width: 60%;
     margin: auto 50px;
-}
-
-#footer2 {
-    color: white;
-    text-align: left;
 }
 
 #yes {
@@ -149,6 +275,53 @@
     width: 100%;
 }
 
+.answer0 {
+    background: #3f3f3f;
+    color: rgb(0, 0, 0);
+    padding: 7px 10px;
+    margin-right: 8px;
+    word-break: keep-all;
+}
+
+.answer1 {
+    background: #fff200;
+    color: black;
+    padding: 7px 10px;
+    margin-right: 8px;
+    word-break: keep-all;
+}
+
+.answer2 {
+    background: #ff009e;
+    color: white;
+    padding: 7px 10px;
+    margin-right: 8px;
+    word-break: keep-all;
+}
+
+.answer3 {
+    background: #3fff00;
+    color: black;
+    padding: 7px 10px;
+    margin-right: 8px;
+    word-break: keep-all;
+}
+
+.answer4 {
+    background: #ff8500;
+    color: black;
+    padding: 7px 10px;
+    margin-right: 8px;
+    word-break: keep-all;
+}
+
+.answer5 {
+    background: #001fff;
+    color: white;
+    padding: 7px 10px;
+    margin-right: 8px;
+    word-break: keep-all;
+}
 
 
 input[type='text'] {
@@ -195,4 +368,18 @@ input[type='radio'] {
 
 input[type='radio']:checked {
     background-color: white;
+}
+
+.float {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }

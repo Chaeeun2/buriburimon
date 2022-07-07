@@ -11,6 +11,11 @@
 </head>
 
 <body id="body">
+    <div class="float">
+        새로고침을 눌러 다시 선택할 수 있어요.
+    </div>
+
+
     <div id="page1">
         <div class="title">
             당신이 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 때
@@ -20,81 +25,250 @@
             <img class="fiveimg" src="resource/911.png" onmouseover="this.src='resource/912.png'"
                 onmouseout="this.src='resource/911.png'" onclick="click001()">
             <img class="fiveimg" src="resource/921.png" onmouseover="this.src='resource/922.png'"
-                onmouseout="this.src='resource/921.png'">
+                onmouseout="this.src='resource/921.png'" onclick="click002()">
         </div>
         <div class="line2nd">
             <img class="fiveimg" src="resource/931.png" onmouseover="this.src='resource/932.png'"
-                onmouseout="this.src='resource/931.png'">
+                onmouseout="this.src='resource/931.png'" onclick="click003()">
             <img class="fiveimg" src="resource/941.png" onmouseover="this.src='resource/942.png'"
-                onmouseout="this.src='resource/941.png'">
+                onmouseout="this.src='resource/941.png'" onclick="click004()">
             <img class="fiveimg" src="resource/951.png" onmouseover="this.src='resource/952.png'"
-                onmouseout="this.src='resource/951.png'">
+                onmouseout="this.src='resource/951.png'" onclick="click005()">
         </div>
     </div>
 
 
 
-
     <div id="page2">
         <div id="left">
-            <div id="title" class="title">
+            <div id="page2_title" class="title">
                 어떤 사람과 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>하고
                 싶나요?
             </div>
 
             <div class="flex1">
-                <div id="first">
-                    <div id="changediv1" class="choice" onclick="click101()">
-                        <img id="change1" src="resource/2-1.png">
+                <div id="page2_first">
+                    <div id="page2_div1" class="choice" onclick="click111()">
+                        <img id="page2_1" src="resource/2-1.png">
                     </div>
-                    <div id="changediv2" class="choice" onclick="click102()">
-                        <img id="change2" src="resource/2-2.png">
+                    <div id="page2_div2" class="choice" onclick="click112()">
+                        <img id="page2_2" src="resource/2-2.png">
                     </div>
                 </div>
 
-                <div id="second">
-                    <div id="changediv4" class="choice" onclick="click202()">
-                        <img id="change4" src="resource/3-2.png">
+                <div id="page2_second">
+                    <div id="page2_div4" class="choice" onclick="click122()">
+                        <img id="page2_4" src="resource/3-2.png">
                     </div>
-                    <div id="changediv3" class="choice" onclick="click201()">
-                        <img id="change3" src="resource/3-1.png">
+                    <div id="page2_div3" class="choice" onclick="click121()">
+                        <img id="page2_3" src="resource/3-1.png">
                     </div>
                 </div>
             </div>
 
             <div class="flex1">
-                <div id="third">
-                    <div id="changediv5" class="choice" onclick="click301()">
-                        <img id="change5" src="resource/4-1.png">
+                <div id="page2_third">
+                    <div id="page2_div5" class="choice" onclick="click131()">
+                        <img id="page2_5" src="resource/4-1.png">
                     </div>
-                    <div id="changediv6" class="choice" onclick="click302()">
-                        <img id="change6" src="resource/4-2.png">
+                    <div id="page2_div6" class="choice" onclick="click132()">
+                        <img id="page2_6" src="resource/4-2.png">
                     </div>
                 </div>
 
-                <div id="fourth">
-                    <div id="changediv8" class="choice" onclick="click402()">
-                        <img id="change8" src="resource/5-2.png">
+                <div id="page2_fourth">
+                    <div id="page2_div8" class="choice" onclick="click142()">
+                        <img id="page2_8" src="resource/5-2.png">
                     </div>
-                    <div id="changediv7" class="choice" onclick="click401()">
-                        <img id="change7" src="resource/5-1.png">
+                    <div id="page2_div7" class="choice" onclick="click141()">
+                        <img id="page2_7" src="resource/5-1.png">
                     </div>
                 </div>
             </div>
 
-            <div id="flex2">
-                <div id="fifth">
-                    <div id="changediv9" class="choice" onmouseover="hover1()" onclick="click501()">
-                        <img id="change9" src="resource/1-1.png">
+            <div id="page2_flex2">
+                <div id="page2_fifth">
+                    <div id="page2_div9" class="choice" onmouseover="hover11()" onclick="click151()">
+                        <img id="page2_9" src="resource/1-1.png">
                     </div>
-                    <div id="changediv10" class="choice" onmouseover="hover2()" onclick="click502()">
-                        <img id="change10" src="resource/1-2.png">
+                    <div id="page2_div10" class="choice" onmouseover="hover12()" onclick="click152()">
+                        <img id="page2_10" src="resource/1-2.png">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="footer">
+        <div id="page2_footer">
+            <span style="font-size:40px; font-weight:700;">이 사람과 <span
+                    style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
+            <form class="gform" method="POST" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbxk6gnmXoUGgicWsZmnDHK6ybkt-tFHdkBnGDiXLfD3qPX8-GluVjQgCH52FDQFvkBZcw/exec">
+                <div>
+                    <input type="radio" id="yes" name="yes" value="할 수 있어요">
+                    <lavel for="yes" id="yeslavel">할 수 있어요</lavel>
+                    <input type="radio" id="no" name="yes" value="할 수 없어요">
+                    <lavel for="no" id="nolavel">할 수 없어요</lavel>
+                </div>
+                <div style="margin-top:70px;">
+                    <lavel for="text" id="textlavel">당신은 상대의 <span
+                            style="color: black; -webkit-text-stroke: 1px white;">어떤
+                            것</span>과 연애하나요?</lavel>
+                    <br><input type="text" id="text" name="message" autocomplete="off" placeholder="답변을 입력하세요.">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="답변하기" onclick="click999()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="page3">
+        <div id="left">
+            <div id="page3_title" class="title">
+                어떤 사람과 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>하고
+                싶나요?
+            </div>
+
+            <div class="flex1">
+                <div id="page3_first">
+                    <div id="page3_div1" class="choice" onclick="click211()">
+                        <img id="page3_1" src="resource/1-1.png">
+                    </div>
+                    <div id="page3_div2" class="choice" onclick="click212()">
+                        <img id="page3_2" src="resource/1-2.png">
+                    </div>
+                </div>
+
+                <div id="page3_second">
+                    <div id="page3_div4" class="choice" onclick="click222()">
+                        <img id="page3_4" src="resource/3-2.png">
+                    </div>
+                    <div id="page3_div3" class="choice" onclick="click221()">
+                        <img id="page3_3" src="resource/3-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex1">
+                <div id="page3_third">
+                    <div id="page3_div5" class="choice" onclick="click231()">
+                        <img id="page3_5" src="resource/4-1.png">
+                    </div>
+                    <div id="page3_div6" class="choice" onclick="click232()">
+                        <img id="page3_6" src="resource/4-2.png">
+                    </div>
+                </div>
+
+                <div id="page3_fourth">
+                    <div id="page3_div8" class="choice" onclick="click242()">
+                        <img id="page3_8" src="resource/5-2.png">
+                    </div>
+                    <div id="page3_div7" class="choice" onclick="click241()">
+                        <img id="page3_7" src="resource/5-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="page3_flex2">
+                <div id="page3_fifth">
+                    <div id="page3_div9" class="choice" onmouseover="hover21()" onclick="click251()">
+                        <img id="page3_9" src="resource/2-1.png">
+                    </div>
+                    <div id="page3_div10" class="choice" onmouseover="hover22()" onclick="click252()">
+                        <img id="page3_10" src="resource/2-2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page3_footer">
+            <span style="font-size:40px; font-weight:700;">이 사람과 <span
+                    style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
+            <form class="gform" method="POST" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbxk6gnmXoUGgicWsZmnDHK6ybkt-tFHdkBnGDiXLfD3qPX8-GluVjQgCH52FDQFvkBZcw/exec">
+                <div>
+                    <input type="radio" id="yes" name="yes" value="할 수 있어요">
+                    <lavel for="yes" id="yeslavel">할 수 있어요</lavel>
+                    <input type="radio" id="no" name="yes" value="할 수 없어요">
+                    <lavel for="no" id="nolavel">할 수 없어요</lavel>
+                </div>
+                <div style="margin-top:70px;">
+                    <lavel for="text" id="textlavel">당신은 상대의 <span
+                            style="color: black; -webkit-text-stroke: 1px white;">어떤
+                            것</span>과 연애하나요?</lavel>
+                    <br><input type="text" id="text" name="message" autocomplete="off" placeholder="답변을 입력하세요.">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="답변하기" onclick="click999()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="page4">
+        <div id="left">
+            <div id="page4_title" class="title">
+                어떤 사람과 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>하고
+                싶나요?
+            </div>
+
+            <div class="flex1">
+                <div id="page4_first">
+                    <div id="page4_div1" class="choice" onclick="click311()">
+                        <img id="page4_1" src="resource/1-1.png">
+                    </div>
+                    <div id="page4_div2" class="choice" onclick="click312()">
+                        <img id="page4_2" src="resource/1-2.png">
+                    </div>
+                </div>
+
+                <div id="page4_second">
+                    <div id="page4_div4" class="choice" onclick="click322()">
+                        <img id="page4_4" src="resource/2-2.png">
+                    </div>
+                    <div id="page4_div3" class="choice" onclick="click321()">
+                        <img id="page4_3" src="resource/2-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex1">
+                <div id="page4_third">
+                    <div id="page4_div5" class="choice" onclick="click331()">
+                        <img id="page4_5" src="resource/4-1.png">
+                    </div>
+                    <div id="page4_div6" class="choice" onclick="click332()">
+                        <img id="page4_6" src="resource/4-2.png">
+                    </div>
+                </div>
+
+                <div id="page4_fourth">
+                    <div id="page4_div8" class="choice" onclick="click342()">
+                        <img id="page4_8" src="resource/5-2.png">
+                    </div>
+                    <div id="page4_div7" class="choice" onclick="click341()">
+                        <img id="page4_7" src="resource/5-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="page4_flex2">
+                <div id="page4_fifth">
+                    <div id="page4_div9" class="choice" onmouseover="hover31()" onclick="click351()">
+                        <img id="page4_9" src="resource/3-1.png">
+                    </div>
+                    <div id="page4_div10" class="choice" onmouseover="hover32()" onclick="click352()">
+                        <img id="page4_10" src="resource/3-2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page4_footer">
             <span style="font-size:40px; font-weight:700;">이 사람과 <span
                     style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
             <form class="gform" method="POST" data-email="example@email.net"
@@ -112,12 +286,185 @@
                     <br><input type="text" id="text" name="message" placeholder="답변을 입력하세요.">
                 </div>
                 <div>
-                    <input type="submit" id="submit" value="답변하기">
+                    <input type="submit" id="submit" value="답변하기" onclick="click999()">
                 </div>
             </form>
         </div>
     </div>
 
 
+
+    <div id="page5">
+        <div id="left">
+            <div id="page5_title" class="title">
+                어떤 사람과 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>하고
+                싶나요?
+            </div>
+
+            <div class="flex1">
+                <div id="page5_first">
+                    <div id="page5_div1" class="choice" onclick="click411()">
+                        <img id="page5_1" src="resource/1-1.png">
+                    </div>
+                    <div id="page5_div2" class="choice" onclick="click412()">
+                        <img id="page5_2" src="resource/1-2.png">
+                    </div>
+                </div>
+
+                <div id="page5_second">
+                    <div id="page5_div4" class="choice" onclick="click422()">
+                        <img id="page5_4" src="resource/2-2.png">
+                    </div>
+                    <div id="page5_div3" class="choice" onclick="click421()">
+                        <img id="page5_3" src="resource/2-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex1">
+                <div id="page5_third">
+                    <div id="page5_div5" class="choice" onclick="click431()">
+                        <img id="page5_5" src="resource/3-1.png">
+                    </div>
+                    <div id="page5_div6" class="choice" onclick="click432()">
+                        <img id="page5_6" src="resource/3-2.png">
+                    </div>
+                </div>
+
+                <div id="page5_fourth">
+                    <div id="page5_div8" class="choice" onclick="click442()">
+                        <img id="page5_8" src="resource/5-2.png">
+                    </div>
+                    <div id="page5_div7" class="choice" onclick="click441()">
+                        <img id="page5_7" src="resource/5-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="page5_flex2">
+                <div id="page5_fifth">
+                    <div id="page5_div9" class="choice" onmouseover="hover41()" onclick="click451()">
+                        <img id="page5_9" src="resource/4-1.png">
+                    </div>
+                    <div id="page5_div10" class="choice" onmouseover="hover42()" onclick="click452()">
+                        <img id="page5_10" src="resource/4-2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page5_footer">
+            <span style="font-size:40px; font-weight:700;">이 사람과 <span
+                    style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
+            <form class="gform" method="POST" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbxk6gnmXoUGgicWsZmnDHK6ybkt-tFHdkBnGDiXLfD3qPX8-GluVjQgCH52FDQFvkBZcw/exec">
+                <div>
+                    <input type="radio" id="yes" name="yes" value="할 수 있어요">
+                    <lavel for="yes" id="yeslavel">할 수 있어요</lavel>
+                    <input type="radio" id="no" name="yes" value="할 수 없어요">
+                    <lavel for="no" id="nolavel">할 수 없어요</lavel>
+                </div>
+                <div style="margin-top:70px;">
+                    <lavel for="text" id="textlavel">당신은 상대의 <span
+                            style="color: black; -webkit-text-stroke: 1px white;">어떤
+                            것</span>과 연애하나요?</lavel>
+                    <br><input type="text" id="text" name="message" autocomplete="off" placeholder="답변을 입력하세요.">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="답변하기" onclick="click999()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="page6">
+        <div id="left">
+            <div id="page6_title" class="title">
+                어떤 사람과 <span style="color: black; -webkit-text-stroke: 1px white;">연애</span>하고
+                싶나요?
+            </div>
+
+            <div class="flex1">
+                <div id="page6_first">
+                    <div id="page6_div1" class="choice" onclick="click511()">
+                        <img id="page6_1" src="resource/1-1.png">
+                    </div>
+                    <div id="page6_div2" class="choice" onclick="click512()">
+                        <img id="page6_2" src="resource/1-2.png">
+                    </div>
+                </div>
+
+                <div id="page6_second">
+                    <div id="page6_div4" class="choice" onclick="click522()">
+                        <img id="page6_4" src="resource/2-2.png">
+                    </div>
+                    <div id="page6_div3" class="choice" onclick="click521()">
+                        <img id="page6_3" src="resource/2-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex1">
+                <div id="page6_third">
+                    <div id="page6_div5" class="choice" onclick="click531()">
+                        <img id="page6_5" src="resource/3-1.png">
+                    </div>
+                    <div id="page6_div6" class="choice" onclick="click532()">
+                        <img id="page6_6" src="resource/3-2.png">
+                    </div>
+                </div>
+
+                <div id="page6_fourth">
+                    <div id="page6_div8" class="choice" onclick="click542()">
+                        <img id="page6_8" src="resource/4-2.png">
+                    </div>
+                    <div id="page6_div7" class="choice" onclick="click541()">
+                        <img id="page6_7" src="resource/4-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="page6_flex2">
+                <div id="page6_fifth">
+                    <div id="page6_div9" class="choice" onmouseover="hover51()" onclick="click551()">
+                        <img id="page6_9" src="resource/5-1.png">
+                    </div>
+                    <div id="page6_div10" class="choice" onmouseover="hover52()" onclick="click552()">
+                        <img id="page6_10" src="resource/5-2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page6_footer">
+            <span style="font-size:40px; font-weight:700;">이 사람과 <span
+                    style="color: black; -webkit-text-stroke: 1px white;">연애</span>할 수 있나요?</span>
+            <form class="gform" method="POST" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbxk6gnmXoUGgicWsZmnDHK6ybkt-tFHdkBnGDiXLfD3qPX8-GluVjQgCH52FDQFvkBZcw/exec">
+                <div>
+                    <input type="radio" id="yes" name="yes" value="할 수 있어요">
+                    <lavel for="yes" id="yeslavel">할 수 있어요</lavel>
+                    <input type="radio" id="no" name="yes" value="할 수 없어요">
+                    <lavel for="no" id="nolavel">할 수 없어요</lavel>
+                </div>
+                <div style="margin-top:70px;">
+                    <lavel for="text" id="textlavel">당신은 상대의 <span
+                            style="color: black; -webkit-text-stroke: 1px white;">어떤
+                            것</span>과 연애하나요?</lavel>
+                    <br><input type="text" id="text" name="message" autocomplete="off" placeholder="답변을 입력하세요.">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="답변하기" onclick="click999()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
     <script src="index.js"></script>
+    <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
