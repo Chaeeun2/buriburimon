@@ -88,7 +88,7 @@
 
 .title {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3.5em;
     margin-top: 8vh;
     text-align: center;
 }
@@ -216,7 +216,7 @@
 
 
 #answer {
-    font-size: 30px;
+    font-size: 1.8em;
     font-weight: 700;
     line-height: 2.4;
     text-align: center;
@@ -239,7 +239,7 @@
 #page5_footer,
 #page6_footer {
     padding-top: 40px;
-    font-size: 22px;
+    font-size: 1em;
     font-weight: 700;
     text-align: center;
     display: none;
@@ -258,7 +258,7 @@
 
 #yeslavel,
 #nolavel {
-    font-size: 23px;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
@@ -267,7 +267,7 @@
 }
 
 #textlavel {
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 700;
 }
 
@@ -328,7 +328,7 @@ input[type='text'] {
     border: 2px solid white;
     background: black;
     color: white;
-    font-size: 23px;
+    font-size: 1.5em;
     padding: 15px;
     width: 20em;
     margin-top: 30px;
@@ -340,7 +340,7 @@ input[type='submit'] {
     border: 2px solid white;
     background: white;
     color: black;
-    font-size: 23px;
+    font-size: 1.5em;
     padding: 10px 20px;
     margin-top: 70px;
     font-weight: 700;
@@ -376,7 +376,7 @@ input[type='radio']:checked {
     text-align: center;
     background: white;
     color: black;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 700;
     padding: 5px 10px;
     margin: 0 auto;

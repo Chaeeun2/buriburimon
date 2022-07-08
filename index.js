@@ -134,6 +134,7 @@ function click142() {
 }
 
 function click151() {
+    document.getElementById("page2_9").src = "resource/1-2.png";
     document.getElementById("page2_div10").style.display = "none";
     document.getElementById("page2_div9").style.opacity = "1";
     document.getElementById("page2_fifth").style.width = "50%";
@@ -143,6 +144,7 @@ function click151() {
 }
 
 function click152() {
+    document.getElementById("page2_9").src = "resource/1-2.png";
     document.getElementById("page2_div10").style.display = "none";
     document.getElementById("page2_div9").style.opacity = "1";
     document.getElementById("page2_fifth").style.width = "50%";
@@ -204,6 +206,7 @@ function click242() {
 }
 
 function click251() {
+    document.getElementById("page3_9").src = "resource/2-2.png";
     document.getElementById("page3_div10").style.display = "none";
     document.getElementById("page3_div9").style.opacity = "1";
     document.getElementById("page3_fifth").style.width = "50%";
@@ -213,6 +216,7 @@ function click251() {
 }
 
 function click252() {
+    document.getElementById("page3_9").src = "resource/2-2.png";
     document.getElementById("page3_div10").style.display = "none";
     document.getElementById("page3_div9").style.opacity = "1";
     document.getElementById("page3_fifth").style.width = "50%";
@@ -274,6 +278,7 @@ function click342() {
 }
 
 function click351() {
+    document.getElementById("page4_9").src = "resource/3-2.png";
     document.getElementById("page4_div10").style.display = "none";
     document.getElementById("page4_div9").style.opacity = "1";
     document.getElementById("page4_fifth").style.width = "50%";
@@ -283,6 +288,7 @@ function click351() {
 }
 
 function click352() {
+    document.getElementById("page4_9").src = "resource/3-2.png";
     document.getElementById("page4_div10").style.display = "none";
     document.getElementById("page4_div9").style.opacity = "1";
     document.getElementById("page4_fifth").style.width = "50%";
@@ -344,6 +350,7 @@ function click442() {
 }
 
 function click451() {
+    document.getElementById("page5_9").src = "resource/4-2.png";
     document.getElementById("page5_div10").style.display = "none";
     document.getElementById("page5_div9").style.opacity = "1";
     document.getElementById("page5_fifth").style.width = "50%";
@@ -353,6 +360,7 @@ function click451() {
 }
 
 function click452() {
+    document.getElementById("page5_9").src = "resource/4-2.png";
     document.getElementById("page5_div10").style.display = "none";
     document.getElementById("page5_div9").style.opacity = "1";
     document.getElementById("page5_fifth").style.width = "50%";
@@ -413,6 +421,7 @@ function click542() {
 }
 
 function click551() {
+    document.getElementById("page6_9").src = "resource/5-2.png";
     document.getElementById("page6_div10").style.display = "none";
     document.getElementById("page6_div9").style.opacity = "1";
     document.getElementById("page6_fifth").style.width = "50%";
@@ -422,6 +431,7 @@ function click551() {
 }
 
 function click552() {
+    document.getElementById("page6_9").src = "resource/5-2.png";
     document.getElementById("page6_div10").style.display = "none";
     document.getElementById("page6_div9").style.opacity = "1";
     document.getElementById("page6_fifth").style.width = "50%";
